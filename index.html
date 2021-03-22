@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,9 +26,8 @@
     <header>
         <div class="container">
             <div class="links">
-                <a href="./pages/mainRU.html"><img src="./img/header/RU.png" alt=""></a>
-                <a href="./index.html"><img src="./img/header/UA.png" alt=""></a>
-                <a href="./mainES.html"><img src="./img/header/SP.png" alt=""></a>
+                <a href="./index.html"><img src="./img/header/RU.png" alt=""></a>
+                <a href="./pages/mainES.html"><img src="./img/header/SP.png" alt=""></a>
             </div>
             <!-- /.links -->
         </div>
@@ -38,13 +37,11 @@
             <div class="logo"><a href="./index.html"><img src="./img/header/logo.png" alt="logo"></a></div>
             <!-- /.logo -->
             <nav>
-                <a href="./index.html">Home</a>
-                <a href="#">Theater</a>
-                <a href="#">Kindergarden</a>
-                <!-- <a href="#">Teachers</a> -->
-                <a href="./pages/aboutUs.html">About us</a>
-                <!-- <a href="#">Blog</a> -->
-                <a href="#footer">Contacts</a>
+                <a href="./index.html">Главная</a>
+                <a href="#theater">Театр</a>
+                <a href="#garden">Садик</a>
+                <a href="./pages/aboutUsRU.html">О нас</a>
+                <a href="#footer">Контакт</a>
             </nav>
         </div>
         <!-- /.container -->
@@ -52,19 +49,27 @@
     
     <section class="main" id="main">
         <div class="container gMain">
-            <div class="wrap">
-                <input type="radio" name="point" id="slide1">
-                <input type="radio" name="point" id="slide2"checked>
-                <input type="radio" name="point" id="slide3">
-                <div class="gSlideshow">
-                    <div class="item"></div>
+            <div class="borderBottom">
+                <div class="wrap">
+                    <div class="slideshow">
+                        <img id="slideshow" src="./img/slider/2.jpg" alt="">
+                    </div>
+                    <!--/.gSlideshow -->
                 </div>
-                <!--/.gSlideshow -->
+                <!-- /.wrap -->
+                <div class="buttons">
+                    <input type="radio" name="sButton" id="slide1" >
+                    <input type="radio" name="sButton" id="slide2" checked>
+                    <input type="radio" name="sButton" id="slide3">
+                </div>
+                <!-- /.buttons -->
             </div>
-            <!-- /.wrap -->
+            <!-- /.borderBottom -->
+
+
             <div class="heading">
-                <h1>Play. Study .Grow</h1>
-                <h2>Children club "Fantasists"</h2>
+                <h1>Играем.  Учимся.  Растём.</h1>
+                <h2>Детский клуб "Фантазёры"</h2>
             </div>
             <!-- /.heading -->
         </div>
@@ -74,15 +79,24 @@
     <section class="welcome" id="welcome">
         <div class="container gWelcome">
             <div class="text">
-                <p class="top">Welcome to </p>
-                <h2>Children club "Fantasists"</h2>
+                <p class="top">Добро пожаловать в </p>
+                <h2>Детский клуб "Фантазёры"</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Добрый день!
+                    Меня зовут Светлана, я руководитель Детского клуба "Фантазёры ". 
+                    В нашем клубе дети занимаются с 2015. Сначала мы просто ставили домашние спектакли, 
+                    но со временем добрались и до настоящей сцены. Мы учимся читать и писать по-русски, 
+                    ещё нам нравится рисовать, лепить, резать, клеить, и конечно же, петь и танцевать. 
+                    Одна из самых больших проблем, возникающих при изучении русского языка - это запоминание новых слов и фраз, 
+                    поэтому мы стараемся всё учить через игру. Дети пропускают всю информацию через себя, экспериментируют, 
+                    пополняют лексический запас.
                 </p>
                 <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Для раскрепощения и развития лидерства, 
+                    эмоционального интеллекта, 
+                    тренировки памяти и пробуждения интереса к литературе мы ставим небольшие спектакли. 
                 </p>
-                <a class="RM" href="./pages/abotUs.html">Read more</a>
+                <a class="RM" href="./pages/aboutUsRU.html">Узнать больше</a>
             </div>
             <!-- /.text -->
             <div class="pictureWelcome">
@@ -97,100 +111,125 @@
         <div class="container">
             <h2>Чем мы занимаемся</h2>
             <div class="gCards">
-                <figure>
+                <div class="fig">
                     <div class="pic t1"></div>
-                    <figcaption>
+                    <div class="caption">
                         <span>Театр</span>
                         <h3>Искусство грима</h3>
-                        <p>Раскрыть характер героя можно используя сценический грим. Поэтому раз в месяц мы с детьми учимся искусству грима. 
+                        <p>
+                            Раскрыть характер героя можно используя сценический грим. 
+                            Поэтому раз в месяц мы с детьми учимся искусству грима.
                         </p>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <figcaption>
+                    </div>
+                </div>
+                <div class="fig">
+                    <div class="pic t2"></div>
+                    <div class="caption">
                         <span>Театр</span>
                         <h3>Сценические костюмы</h3>
-                        <p>С детьми мы ставим спектакли по прочитанным произведениям. Это могут быть сказки, повести или стихи. Таким образом детям легче и интереснее знакомиться с русской литературой. 
+                        <p>
+                            С детьми мы ставим спектакли по прочитанным произведениям. 
+                            Это могут быть сказки, повести или стихи. Таким образом 
+                            детям легче и интереснее знакомиться с русской литературой.
                         </p>
-                    </figcaption>
-                    <div class="pic t2"></div>
-                </figure>
-                <figure>
+                    </div>
+                </div>
+                <div class="fig">
                     <div class="pic t3"></div>
-                    <figcaption>
+                    <div class="caption">
                         <span>Театр</span>
                         <h3>Практикуемся в чтении</h3>
-                        <p>Помимо занятий театром, мы учимся читать. Самые маленькие начинают с алфавита, а со старшими детьми изучаем что такое существительное, прилагательное и другие части речи. 
+                        <p>
+                            Помимо занятий театром, мы учимся читать. 
+                            Самые маленькие начинают с алфавита, а со 
+                            старшими детьми изучаем что такое существительное, 
+                            прилагательное и другие части речи.
                         </p>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <figcaption>
+                    </div>
+                </div>
+                <div class="fig">
+                    <div class="pic t4"></div>
+                    <div class="caption">
                         <span>Театр</span>
                         <h3>Практикуемся в письме</h3>
-                        <p>Мы учимся писать как прописью, так и печатными буквами.</p>
-                    </figcaption>
-                    <div class="pic t4"></div>
-                </figure>
+                        <p>
+                            Мы учимся писать как прописью, 
+                            так и печатными буквами
+                        </p>
+                    </div>
+                </div>
+                <div class="fig">
+                    <div class="pic t5"></div>
+                    <div class="caption">
+                        <span>Садик</span>
+                        <h3>Учимся ухаживать за собой</h3>
+                        <p>
+                            Во время игр учимся пользоваться предметами 
+                            домашнего быта, 
+                            пробуем самостоятельно одеваться, 
+                            кушать, убирать за собой игрушки.
+                        </p>
+                    </div>
+                </div>
+                <div class="fig">
+                    <div class="pic t6"></div>
+                    <div class="caption">
+                        <span>Садик</span>
+                        <h3>Даем свободу творчеству</h3>
+                        <p>
+                            Знакомимся с различными видами 
+                            изобразительного искусства: рисуем 
+                            мелками, фломастерами, акварельными 
+                            красками. Лепим из пластилина, делаем 
+                            аппликации.
+                        </p>
+                    </div>
+                </div>
+                <div class="fig">
+                    <div class="pic t7"></div>
+                    <div class="caption">
+                        <span>Садик</span>
+                        <h3>Развиваем кулинарные навыки</h3>
+                        <p>
+                            На нашей кухне мы готовим разные 
+                            вкусные блюда, которые потом с 
+                            аппетитом кушают любимые игрушки детей. 
+                        </p>
+                    </div>
+                </div>
+                <div class="fig">
+                    <div class="pic t8"></div>
+                    <div class="caption">
+                        <span>Садик</span>
+                        <h3>Развивающие игры</h3>
+                        <p>
+                            На занятиях дети учатся различать 
+                            разные формы, размеры и цвета 
+                            предметов. Это развивает внимание, 
+                            наблюдательность, мелкую моторику 
+                            и обогащает словарный запас. 
+                        </p>
+                    </div>
+                </div>
+                
             </div>
             <!-- /.gCards -->
         </div>
         <!-- /.container -->
     </section>
-    
-<!--
-    <section class="schoolFac">
-        <div class="container gSchool">
-            <figure>
-                <img src="./img/schoolFacilities/children.png" alt="img">
-                <figcaption>
-                <h2>School Facilities</h2>
-                <p>Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamcoolor sit amet, </p>
-                </figcaption>
-            </figure>
-
-            <div class="gTable">
-                <div>
-                    <img src="./img/schoolFacilities/table1.png" alt="Healthy Meals">
-                    <span>Healthy Meals</span>
-                </div>
-                <div>
-                    <img src="./img/schoolFacilities/table2.png" alt="Multimedia Class">
-                    <span>Multimedia</span>
-                </div>
-                <div>
-                    <img src="./img/schoolFacilities/table3.png" alt="Art Class">
-                    <span>Art Class</span>
-                </div>
-                <div>
-                    <img src="./img/schoolFacilities/table4.png" alt="Events">
-                    <span>Events</span>
-                </div>
-                <div>
-                    <img src="./img/schoolFacilities/table5.png" alt="Teachers">
-                    <span>Teachers</span>
-                </div>
-                <div>
-                    <img src="./img/schoolFacilities/table6.png" alt="Achievements">
-                    <span>Achievements</span>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-    /.schoolFac
-        -->
+    <!-- /.coursesTable -->
 
     <section class="teachers">
         <div class="container gTeachers">
             <h2>Давайте знакомиться</h2>
             <div class="tCards">
                 <div>
-                    <span>Martina Doe</span>
+                    <span>Светлана</span>
                 </div>
                 <p>
                     Меня зовут Светлана. Родилась я в столице Беларуси в городе Минске. В 2013 году вместе с десятилетней дочерью переехала в Лас-Пальмас. По образованию я юрист, но в тоже время не переставала быть творческим человеком. Так, например, в 2011 году вышла моя детская книга "Ура, каникулы" о летних приключениях девочки Маши. С 2015 года руководила Клубом Фантазёры, в котором вместе с другими родителями мы старались привить нашим детям любовь к русскому языку. Ставили ежегодные новогодние спектакли. Один из них, "Буратино", даже возили на международный  фестиваль детского творчества, где победили в нескольких номинациях. 
                     В 2020 году получила второе образование уже здесь, в Испании, по специальности детский воспитатель. Что и помогло мне осуществить свою давнюю мечту работать с маленькими детьми. 
+
                 </p>
             </div>
             <!-- /.tCards -->
@@ -203,17 +242,18 @@
         <div class="container">
             <div class="info">
                 <div class="address">
-                    <h4>Adress:</h4>
-                    <p>73724 Route , 4A <span></span> South Richmond Hill, NY 11419</p>
+                    <h4>Адрес:</h4>
+                    <p>Calle Luis Benítez Inglott 32, P15B <span>35011</span> </p>
                 </div>
                 <!-- /.adress -->
                 <div class="contact">
-                    <h4>Contact:</h4>
-                    <p><span>Тel:</span> (603)-677-3400</p>
-                    <p><span>Email:</span> info@yourdomain.com</p>
+                    <h4>Контакт:</h4>
+                    <p><span>Тел:</span>  +34626722543</p>
+                    <p><span>Email:</span>  fantasiory@gmail.com</p>
                 </div>
                 <!-- /.contact -->
-                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://www.facebook.com/groups/895015724240354" class="fa fa-facebook"></a>
+                <a href="https://instagram.com/klub_fantaziory?igshid=sg1w9oh00vp5" class="fa fa-instagram"></a>
             </div>
             <!-- /.info -->
 
@@ -231,5 +271,22 @@
         </div>
         <!-- /.container -->
     </footer>
+
+
+    <script>
+        var slideShowImg = document.getElementById("slideshow");
+        var radios = document.getElementsByTagName("input");
+        radios[0].onclick = function(){
+            slideShowImg.src = "./img/slider/1.jpg";
+        }
+        radios[1].onclick = function(){
+            slideShowImg.src = "./img/slider/2.jpg";
+        }
+        
+        radios[2].onclick = function(){
+            slideShowImg.src = "./img/slider/3.jpg";
+        }
+        
+    </script>
 </body>
 </html>

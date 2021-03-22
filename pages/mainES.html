@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,8 +26,7 @@
     <header>
         <div class="container">
             <div class="links">
-                <a href="./mainRU.html"><img src="../img/header/RU.png" alt=""></a>
-                <a href="../index.html"><img src="../img/header/UA.png" alt=""></a>
+                <a href="../index.html"><img src="../img/header/RU.png" alt=""></a>
                 <a href="./mainES.html"><img src="../img/header/SP.png" alt=""></a>
             </div>
             <!-- /.links -->
@@ -38,9 +37,8 @@
             <div class="logo"><a href="./mainES.html"><img src="../img/header/logo.png" alt="logo"></a></div>
             <!-- /.logo -->
             <nav>
-                <a href="../mainES.html">Principal</a>
-                <a href="#">Театр</a>
-                <a href="#">Садик</a>
+                <a href="./mainES.html">Principal</a>
+                <a href="#theater">Clases particulares</a>
                 <a href="./aboutUsES.html">Acerca de Nosotros</a>
                 <a href="#footer">Contacto</a>
             </nav>
@@ -50,19 +48,27 @@
     
     <section class="main" id="main">
         <div class="container gMain">
-            <div class="wrap">
-                <input type="radio" name="point" id="slide1">
-                <input type="radio" name="point" id="slide2"checked>
-                <input type="radio" name="point" id="slide3">
-                <div class="gSlideshow">
-                    <div class="item"></div>
+            <div class="borderBottom">
+                <div class="wrap">
+                    <div class="slideshow">
+                        <img id="slideshow" src="../img/slider/2.jpg" alt="">
+                    </div>
+                    <!--/.gSlideshow -->
                 </div>
-                <!--/.gSlideshow -->
+                <!-- /.wrap -->
+                <div class="buttons">
+                    <input type="radio" name="sButton" id="slide1" >
+                    <input type="radio" name="sButton" id="slide2" checked>
+                    <input type="radio" name="sButton" id="slide3">
+                </div>
+                <!-- /.buttons -->
             </div>
-            <!-- /.wrap -->
+            <!-- /.borderBottom -->
+
+
             <div class="heading">
-                <h1>Играем.  Учимся.  Растём.</h1>
-                <h2>Детский клуб "Фантазёры"</h2>
+                <h1>Jugamos. Estudiamos. Crecemos.</h1>
+                <h2>Club infantil Soñadores</h2>
             </div>
             <!-- /.heading -->
         </div>
@@ -72,8 +78,8 @@
     <section class="welcome" id="welcome">
         <div class="container gWelcome">
             <div class="text">
-                <p class="top">Добро пожаловать в </p>
-                <h2>Детский клуб "Фантазёры"</h2>
+                <p class="top">Bienvenidos al </p>
+                <h2>club infantil Soñadores</h2>
                 <p>
                     Me llamo Svetlana, soy la dirigente del club infantil «Soñadores». 
                     En nuestro club los niños participan desde el 2015. 
@@ -89,7 +95,7 @@
                     y desarrollar el liderazgo, inteligencia emocional, memoria e interés 
                     por la literatura.
                 </p>
-                <a class="RM" href="./aboutUsES.html">Узнать больше</a>
+                <a class="RM" href="./aboutUsES.html">Saber más</a>
             </div>
             <!-- /.text -->
             <div class="pictureWelcome">
@@ -102,98 +108,81 @@
 
     <section class="coursesTable">
         <div class="container">
-            <h2>Чем мы занимаемся</h2>
-            <div class="gCards">
-                <figure>
+            <h2>Que hacemos</h2>
+            <div class="gCards" id="theater">
+                <div class="fig">
                     <div class="pic t1"></div>
-                    <figcaption>
-                        <span>Teatro</span>
-                        <h3>Искусство грима</h3>
+                    <div class="caption">
+                        <h3>Arte de maquillaje</h3>
                         <p>Para descubrir el carácter de un personaje ayuda maquillaje teatral. Por eso una vez al mes aprendemos el arte de maquillaje.  
                         </p>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <figcaption>
-                        <span>Teatro</span>
-                        <h3>Сценические костюмы</h3>
+                    </div>
+                </div>
+                <div class="fig">
+                    <div class="pic t2"></div>
+                    <div class="caption">
+                        <h3>Obras del teatro</h3>
                         <p>Con los niños organizamos espectáculos basados en obras leídas. Son cuentos, relatos o versos. Así a los niños les resulta más fácil y divertido conocer la literatura rusa. 
                         </p>
-                    </figcaption>
-                    <div class="pic t2"></div>
-                </figure>
-                <figure>
+                    </div>
+                </div>
+                <div class="fig">
                     <div class="pic t3"></div>
-                    <figcaption>
-                        <span>Teatro</span>
-                        <h3>Практикуемся в чтении</h3>
+                    <div class="caption">
+                        <h3>Aprendemos a leer en ruso</h3>
                         <p>Además de teatro aprendemos a leer. Los más pequeños empiezan con el alfabeto, con los niños mayores estudiamos sustantivos, adjetivos y otras partes de las oración. 
                         </p>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <figcaption>
-                        <span>Teatro</span>
-                        <h3>Практикуемся в письме</h3>
-                        <p>Enseñamos a escribir tanto con letra manuscrita como impresa.</p>
-                    </figcaption>
+                    </div>
+                </div>
+                <div class="fig">
                     <div class="pic t4"></div>
-                </figure>
+                    <div class="caption">
+                        <h3>Aprendemos a escribir en ruso</h3>
+                        <p>Enseñamos a escribir tanto con letra manuscrita como impresa.</p>
+                    </div>
+                </div>
+                <div class="fig">
+                    <div class="pic t5"></div>
+                    <div class="caption">
+                        <h3>Aprendemos a ser independientes</h3>
+                        <p>En los juegos aprendemos a usar utensilios domésticos, vestirnos, comer y recoger juguetes por nuestra cuenta.  
+                        </p>
+                    </div>
+                </div>
+                <div class="fig">
+                    <div class="pic t6"></div>
+                    <div class="caption">
+                        <h3>Liberamos la imaginación</h3>
+                        <p>Conocemos artes plásticas dibujando con tiza, rotuladores, acuarela, esculpiendo con plastilina y haciendo aplicaciones de adorno. </p>
+                    </div>
+                </div>
+                <div class="fig">
+                    <div class="pic t7"></div>
+                    <div class="caption">
+                        <h3>Desrollamos los hábitos culinarios</h3>
+                        <p>En nuestra cocina preparamos platos sabrosos que luego consumen gustosamente los juguetes favoritos de los niños. 
+                        </p>
+                    </div>
+                </div>
+                <div class="fig">
+                    <div class="pic t8"></div>
+                    <div class="caption">
+                        <h3>Juegos de desarrollo</h3>
+                        <p>En las clases los niños aprenden diferentes formas, tamaños y colores de objetos. Eso desarrolla concentración, motricidad fina y vocabulario. </p>
+                    </div>
+                </div>
             </div>
             <!-- /.gCards -->
         </div>
         <!-- /.container -->
     </section>
-    
-<!--
-    <section class="schoolFac">
-        <div class="container gSchool">
-            <figure>
-                <img src="../img/schoolFacilities/children.png" alt="img">
-                <figcaption>
-                <h2>School Facilities</h2>
-                <p>Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamcoolor sit amet, </p>
-                </figcaption>
-            </figure>
-
-            <div class="gTable">
-                <div>
-                    <img src="../img/schoolFacilities/table1.png" alt="Healthy Meals">
-                    <span>Healthy Meals</span>
-                </div>
-                <div>
-                    <img src="../img/schoolFacilities/table2.png" alt="Multimedia Class">
-                    <span>Multimedia</span>
-                </div>
-                <div>
-                    <img src="../img/schoolFacilities/table3.png" alt="Art Class">
-                    <span>Art Class</span>
-                </div>
-                <div>
-                    <img src="../img/schoolFacilities/table4.png" alt="Events">
-                    <span>Events</span>
-                </div>
-                <div>
-                    <img src="../img/schoolFacilities/table5.png" alt="Teachers">
-                    <span>Teachers</span>
-                </div>
-                <div>
-                    <img src="../img/schoolFacilities/table6.png" alt="Achievements">
-                    <span>Achievements</span>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-    /.schoolFac
-        -->
 
     <section class="teachers">
         <div class="container gTeachers">
-            <h2>Давайте знакомиться</h2>
+            <h2>Vamos a conocernos</h2>
             <div class="tCards">
                 <div>
-                    <span>Светлана</span>
+                    <span>Svetlana</span>
                 </div>
                 <p>
                     Me llamo Svetlana. Nací en Minsk, la capital de Bielorrusia. En el 2013 me trasladé a Las Palmas con mi hija de diez años. Soy jurista de formación, pero también siempre he sido una persona creativa. Así, en el 2011 he editó un libro infantil mío «¡Por fin, vacaciones!» sobre las aventuras veraniegas de la niña Masha. Desde el 2015 he dirigido el club infantil «Soñadores», donde con otros padres inculcábamos el amor por el ruso a nuestros hijos. Montábamos espectáculos cada fin de año. Uno de ellos hasta ganó varios premios en un festival de obras infantiles. En el 2020 obtuve otra formación ya aquí en España, de técnico en educación infantil, lo que me ayudó a cumplir mi sueño de trabajar con niños pequeños.
@@ -210,16 +199,17 @@
             <div class="info">
                 <div class="address">
                     <h4>Dirección:</h4>
-                    <p>73724 Route , 4A <span></span> South Richmond Hill, NY 11419</p>
+                    <p>Calle Luis Benítez Inglott 32, P15B <span></span>35011</p>
                 </div>
                 <!-- /.adress -->
                 <div class="contact">
                     <h4>Contacto:</h4>
-                    <p><span>Tel:</span> (603)-677-3400</p>
-                    <p><span>Email:</span> info@yourdomain.com</p>
+                    <p><span>Tel:</span>  +34626722543</p>
+                    <p><span>Email:</span>  fantasiory@gmail.com</p>
                 </div>
                 <!-- /.contact -->
-                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://www.facebook.com/groups/895015724240354" class="fa fa-facebook"></a>
+                <a href="https://instagram.com/klub_fantaziory?igshid=sg1w9oh00vp5" class="fa fa-instagram"></a>
             </div>
             <!-- /.info -->
 
@@ -237,5 +227,23 @@
         </div>
         <!-- /.container -->
     </footer>
+</body>
+</html>
+
+<script>
+    var slideShowImg = document.getElementById("slideshow");
+    var radios = document.getElementsByTagName("input");
+    radios[0].onclick = function(){
+        slideShowImg.src = "../img/slider/1.jpg";
+    }
+    radios[1].onclick = function(){
+        slideShowImg.src = "../img/slider/2.jpg";
+    }
+    
+    radios[2].onclick = function(){
+        slideShowImg.src = "../img/slider/3.jpg";
+    }
+    
+</script>
 </body>
 </html>
