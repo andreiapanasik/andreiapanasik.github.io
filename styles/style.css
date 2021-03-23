@@ -456,7 +456,7 @@ header nav a:hover, a:active{ font-family: RobotoBlack; }
 }
 
 .coursesTable .gCards p{
-    color: #646464;
+    color: black;
     line-height: 24px;
     letter-spacing: 0.8px;
     margin-bottom: 32px;
