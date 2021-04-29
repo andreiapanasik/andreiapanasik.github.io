@@ -248,7 +248,7 @@ header nav a:hover, a:active{ font-family: RobotoBlack; }
 .buttons{
     position: absolute;
     bottom: 15px;
-    left: 50%;
+    left: 44%;
     z-index: 2;
     transform: translateX(-50%);
     
@@ -456,7 +456,7 @@ header nav a:hover, a:active{ font-family: RobotoBlack; }
 }
 
 .coursesTable .gCards p{
-    color: #646464;
+    color: #706d6d;
     line-height: 24px;
     letter-spacing: 0.8px;
     margin-bottom: 32px;
